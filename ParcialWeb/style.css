@@ -1,0 +1,41 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+}
+
+header{
+    background-color: #4caf50;
+    padding: 20px;
+    color: white;
+}
+
+button{
+    background-color: #333;
+    border: none;
+    color: white;
+    margin: 5px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #555;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.column{
+    width: 30%;
+}
+
+footer{
+    background-color: #2196f3;
+    color: white;
+    padding: 20px;
+    text-align: left;
+}
